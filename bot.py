@@ -64,7 +64,6 @@ class IrcBot:
                if line.find("NOTICE") != -1 and line.find("Password accepted") != -1:
                   for c in self.channels:
                      self.irc.send("JOIN %s\r\n" % c)
-                     self.send_message(c, "Greetings.")
             except Exception as e:
                print "=================== ERROR ==================="
                print e
