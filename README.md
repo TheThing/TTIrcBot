@@ -12,12 +12,12 @@ TheThing's personal IRC bot
 
 ### Direct
 
- # python
- >>> from bot import *
- >>> bot = IrcBot('irc.rizon.net', 6667)
- >>> bot.load_modules()
- >>> bot.connect('bot-name', 'MyBot', 'BotNickServPassword')
- >>> bot.run(["#my-channel"])
+    # python
+    >>> from bot import *
+    >>> bot = IrcBot('irc.rizon.net', 6667)
+    >>> bot.load_modules()
+    >>> bot.connect('bot-name', 'MyBot', 'BotNickServPassword')
+    >>> bot.run(["#my-channel"])
 
 ### Alternatively
 
