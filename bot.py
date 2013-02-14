@@ -46,7 +46,7 @@ class IrcBot:
          data = self.irc.recv(4096 )
          for line in data.split('\r\n'):
             line = "%s\r\n" % line
-            self.debug(line)
+            #self.debug(line)
 
             try:
                if len(line.split(':')) != 3:
