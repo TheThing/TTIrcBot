@@ -7,7 +7,7 @@ class TWGOK(IrcModule):
 		self.irc = irc
 
 	def supports(self, channel, user, message):
-		if (message.beginswith("!twgok")):
+		if (message.startswith("!twgok")):
 			return True
 
 	def on_message(self, channel, user, message):

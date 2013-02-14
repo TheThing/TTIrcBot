@@ -7,7 +7,7 @@ class Precure(IrcModule):
 		self.irc = irc
 
 	def supports(self, channel, user, message):
-		if (message.beginswith("!precure")):
+		if (message.startswith("!precure")):
 			return True
 
 	def on_message(self, channel, user, message):
