@@ -25,8 +25,8 @@ Create a file called run.py and insert the above lines into it.
 
 Then type:
 
- # python run.py
+    # python run.py
 
 ## License
 
-All vode Licensed under the WTFPL 2.0
+All code is Licensed under the WTFPL 2.0
