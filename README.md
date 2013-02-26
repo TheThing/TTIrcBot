@@ -12,12 +12,12 @@ TheThing's personal IRC bot
 
 ### Direct
 
- # python
- >>> from bot import *
- >>> bot = IrcBot('irc.rizon.net', 6667)
- >>> bot.load_modules()
- >>> bot.connect('bot-name', 'MyBot', 'BotNickServPassword')
- >>> bot.run(["#my-channel"])
+    # python
+    >>> from bot import *
+    >>> bot = IrcBot('irc.rizon.net', 6667)
+    >>> bot.load_modules()
+    >>> bot.connect('bot-name', 'MyBot', 'BotNickServPassword')
+    >>> bot.run(["#my-channel"])
 
 ### Alternatively
 
@@ -25,8 +25,8 @@ Create a file called run.py and insert the above lines into it.
 
 Then type:
 
- # python run.py
+    # python run.py
 
 ## License
 
-All vode Licensed under the WTFPL 2.0
+All code is Licensed under the WTFPL 2.0
